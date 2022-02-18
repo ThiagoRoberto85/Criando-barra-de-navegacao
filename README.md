@@ -1,2 +1,3 @@
 # Criando-barra-de-navegacao
- Menu lateral
+ Criando um menu lateral vertical.
+ 
