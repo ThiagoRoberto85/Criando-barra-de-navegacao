@@ -1,0 +1,48 @@
+/* Barra de navegação vertical*/
+/*
+ul {
+   
+    list-style-type: none; /* essa função serve para retirar os pontos da lista
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 5px 20px;
+    border: 1px solid red;
+    background: url(../Criando-barra-de-navegação/seta.png) no-repeat left center;
+}
+
+*/
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+ul a {
+    
+    width: 200px;
+    height: 40px;
+    color: #000;
+    display: block;
+    background:#f7b600 url(../Criando-barra-de-navegação/menu.png) no-repeat left bottom;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+}
+
+a:hover {
+    background-position: right bottom;
+    color: white;
+    background-color: #f99200;
+}
+
+#home .home a, #sobre .sobre a, #servicos .servicos a,
+#noticias .noticias a, #contato .contato a {
+    background-position: right bottom;
+    color: white;
+    background-color: #f99200;
+
+}
